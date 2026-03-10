@@ -1,0 +1,27 @@
+{
+  "name": "lifestream-api",
+  "version": "0.0.1",
+  "description": "Reusable core library for working with streaming services powered by the Lifestream API.",
+  "keywords": [
+    "streaming"
+  ],
+  "author": "Gleb Zlobin",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "main.ts",
+  "scripts": {
+    "build": "azt build"
+  },
+  "engines": {
+    "azot": ">=4.3.10"
+  },
+  "devDependencies": {
+    "@types/jsqrcode": "^1.0.8",
+    "@types/node": "^25.3.0",
+    "@zxing/library": "^0.21.3",
+    "azot": "^5.0.0-alpha.16",
+    "jsqr": "^1.4.0",
+    "typescript": "^5.9.3",
+    "upng-js": "^2.1.0"
+  }
+}
